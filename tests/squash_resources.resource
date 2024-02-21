@@ -1,5 +1,7 @@
 
-
+*** Variables ***
+${TEST_SETUP}    Break this
+${TEST_TEARDOWN}    I have to do a BDD test
 
 *** Keywords ***
 
@@ -17,5 +19,6 @@ I try to inject some comments
     Log    zzzz
 nothing else to add
     Log    zzzz
-
+Break this
+    Fail    bye
 
