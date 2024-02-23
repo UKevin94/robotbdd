@@ -18,6 +18,7 @@ I try to inject some comments
     Log    zzzz
 nothing else to add
     Log    zzzz
+    Fail   byebye
 Break this
     Fail    bye
 
