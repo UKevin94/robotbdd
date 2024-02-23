@@ -7,6 +7,7 @@ ${TEST_TEARDOWN}    I have to do a BDD test
 
 I have to do a BDD test
     Log    zzzz
+    Fail   byebye
 I'm using a "${something}"
     Log    zzzz ${something}
 a value from the dataset "${injected_dataset}"
@@ -15,7 +16,6 @@ I try to use a datatable "${injected_datatable}"
     Log    zzzz ${injected_datatable}
 I try to use a docstring "${injected_docstring}"
     Log    zzzz ${injected_docstring}
-    Fail   byebye
 I try to inject some comments
     Log    zzzz
 nothing else to add
