@@ -21,6 +21,7 @@ zz
     Given I have to do a BDD test
     When I'm using a "free value"
     And a value from the dataset "${dataset}[value1]"
+    And a value from the dataset "${dataset}[value1]"
     Then I try to use a datatable "${datatables}[datatable_1]"
     And I try to use a docstring "${docstrings}[docstring_1]"
     And I try to inject some comments

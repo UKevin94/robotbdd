@@ -6,7 +6,6 @@
 
 I have to do a BDD test
     Log    zzzz
-    Fail    bye
 I'm using a "${something}"
     Log    zzzz ${something}
 a value from the dataset "${injected_dataset}"
