@@ -11,6 +11,7 @@ I'm using a "${something}"
     Log    zzzz ${something}
 a value from the dataset "${injected_dataset}"
     Log    zzzz ${injected_dataset}
+    Fail   byebye
 I try to use a datatable "${injected_datatable}"
     Log    zzzz ${injected_datatable}
 I try to use a docstring "${injected_docstring}"
