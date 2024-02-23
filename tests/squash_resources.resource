@@ -9,6 +9,7 @@ I have to do a BDD test
     Log    zzzz
 I'm using a "${something}"
     Log    zzzz ${something}
+    Fail   byebye
 a value from the dataset "${injected_dataset}"
     Log    zzzz ${injected_dataset}
 I try to use a datatable "${injected_datatable}"
