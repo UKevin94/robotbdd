@@ -15,6 +15,7 @@ I try to use a datatable "${injected_datatable}"
     Log    zzzz ${injected_datatable}
 I try to use a docstring "${injected_docstring}"
     Log    zzzz ${injected_docstring}
+    Fail   byebye
 I try to inject some comments
     Log    zzzz
 nothing else to add
