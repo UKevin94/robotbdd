@@ -1,13 +1,11 @@
 
 *** Variables ***
-${TEST_SETUP}    I have to do a BDD test
-${TEST_TEARDOWN}    I have to do a BDD test
+${TEST_TEARDOWN}    Break this
 
 *** Keywords ***
 
 I have to do a BDD test
     Log    zzzz
-    Fail   byebye
 I'm using a "${something}"
     Log    zzzz ${something}
 a value from the dataset "${injected_dataset}"
