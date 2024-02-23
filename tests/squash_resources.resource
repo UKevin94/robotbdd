@@ -1,7 +1,7 @@
 
 *** Variables ***
-${TEST_SETUP}    Break this
-${TEST_TEARDOWN}    I have to do a BDD test
+${TEST_SETUP}    I have to do a BDD test
+${TEST_TEARDOWN}    Break this
 
 *** Keywords ***
 
