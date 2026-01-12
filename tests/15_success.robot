@@ -15,6 +15,7 @@ success
     Given I have to do a BDD test
     When I try to inject some comments
     Then nothing else to add
+    And I try to inject some comments
 
 
 *** Keywords ***
