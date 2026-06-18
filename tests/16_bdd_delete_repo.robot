@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    failure
+Documentation    bdd_delete_repo
 Metadata         ID                           16
 Metadata         Automation priority          null
 Metadata         Test case importance         Low
@@ -9,12 +9,12 @@ Test Teardown    Test Teardown
 
 
 *** Test Cases ***
-failure
-    [Documentation]    failure
+bdd_delete_repo
+    [Documentation]    bdd_delete_repo
 
-    Given I have to do a BDD test
-    When I try to inject some comments
-    Then Break this
+    Given I will delete my repository
+    When I delete my repository
+    Then the URL should go back to empty
 
 
 *** Keywords ***
